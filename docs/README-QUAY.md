@@ -132,9 +132,10 @@ curl -X PUT -k --header 'Content-Type: application/json' -H "Authorization: Bear
 curl -X PUT -k --header 'Content-Type: application/json' -H "Authorization: Bearer ${OAUTH_TOKEN}" ${QUAY_API}/api/v1/user/robots/ocp-mirror --data '{ "description": "robot to mirror OpenShift mirrored repo" }'
 ```
 
-#
-# Bad idea, it is a super_user robots
-# but I can't find other way to get everything working for ZTP
+```
+// Bad idea, it is a super_user robots
+// but I can't find other way to get everything working for ZTP
+```
 
 # Add repository permission to robot
 
